@@ -1,0 +1,63 @@
+/* Styling for the Light Control Menu */
+.light-control-menu {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .top-nav ul li {
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .dropdown-content {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

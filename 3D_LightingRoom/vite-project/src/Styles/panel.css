@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.control-panel {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.lighting-room {
+  width: 1000px;
+  height: 700px;
+  background: black;
+}
+
+fieldset {
+  border: none;
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
