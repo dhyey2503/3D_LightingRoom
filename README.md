@@ -10,8 +10,6 @@ This project merges the power of WebGL, real-time graphics, and intuitive UI/UX 
 
 The main goal of this project is to provide a platform where users can experiment with different lighting types and behaviors in a realistic 3D environment. The application simulates how light interacts with surfaces, mimicking real-world behaviors such as casting shadows, changing intensity, and bouncing light.
 
-This project was developed during my internship at **WeblogySphere**, where I was tasked with exploring advanced front-end technologies and 3D rendering techniques using React and Three.js.
-
 ---
 
  🎯 Key Features
